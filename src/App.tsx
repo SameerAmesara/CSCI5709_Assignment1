@@ -12,7 +12,7 @@ const mentorList = [
     areaOfExpertise: "Data Science, Python, and Machine Learning",
     rating: 5,
     bio: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi molestie, metus quis blandit mattis, ligula augue molestie lectus, id volutpat sem diam nec arcu. Sed vel tincidunt lacus, a sodales nisi. Vestibulum ac enim felis.",
-    imageUrl: "/images/person2.jpg",
+    imageUrl: "./images/person2.jpg",
   },
   {
     id: 2,
