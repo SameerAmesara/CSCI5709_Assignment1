@@ -18,11 +18,28 @@ interface FilterValues {
 }
 
 function Filter() {
-  const [filterValues] = useState<FilterValues>({
+  const [filterValues, setFilterValues] = useState<FilterValues>({
     areaOfExpertise: "",
     experience: 3,
     rating: 0,
   });
+
+  const handleExperienceChange = (
+    event: Event,
+    newValue: number | number[]
+  ) => {
+    setFilterValues({
+      ...filterValues,
+      experience: newValue as number,
+    });
+  };
+
+  const handleRatingChange = (event: Event, newValue: number | number[]) => {
+    setFilterValues({
+      ...filterValues,
+      rating: newValue as number,
+    });
+  };
 
   return (
     <Box sx={{ p: 2, width: "100%", minWidth: 200 }}>
@@ -34,9 +51,11 @@ function Filter() {
             value={filterValues.areaOfExpertise}
             label="Area of Expertise"
           >
+            {/* Populate this list with actual areas of expertise */}
             <MenuItem value="Java">Java</MenuItem>
             <MenuItem value="Python">Python</MenuItem>
             <MenuItem value="JavaScript">JavaScript</MenuItem>
+            {/* ... other options */}
           </Select>
         </FormControl>
 
@@ -45,6 +64,7 @@ function Filter() {
         </Typography>
         <Slider
           value={filterValues.experience}
+          onChange={handleExperienceChange}
           aria-labelledby="experience-slider"
           valueLabelDisplay="auto"
           step={1}
@@ -58,6 +78,7 @@ function Filter() {
         </Typography>
         <Slider
           value={filterValues.rating}
+          onChange={handleRatingChange}
           aria-labelledby="rating-slider"
           valueLabelDisplay="auto"
           step={1}
