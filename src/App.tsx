@@ -12,7 +12,7 @@ const mentorList = [
     areaOfExpertise: "Data Science, Python, and Machine Learning",
     rating: 5,
     bio: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi molestie, metus quis blandit mattis, ligula augue molestie lectus, id volutpat sem diam nec arcu. Sed vel tincidunt lacus, a sodales nisi. Vestibulum ac enim felis.",
-    imageUrl: "./dist/images/person2.jpg",
+    imageUrl: "/images/person2.jpg",
   },
   {
     id: 2,
@@ -21,7 +21,7 @@ const mentorList = [
     areaOfExpertise: "Web Development, JavaScript, React",
     rating: 4,
     bio: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi molestie, metus quis blandit mattis, ligula augue molestie lectus, id volutpat sem diam nec arcu. Sed vel tincidunt lacus, a sodales nisi. Vestibulum ac enim felis.",
-    imageUrl: "./dist/images/person1.jpg",
+    imageUrl: "/images/person1.jpg",
   },
   {
     id: 3,
@@ -30,7 +30,7 @@ const mentorList = [
     areaOfExpertise: "UI/UX Design, Figma, Adobe XD",
     rating: 3,
     bio: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi molestie, metus quis blandit mattis, ligula augue molestie lectus, id volutpat sem diam nec arcu. Sed vel tincidunt lacus, a sodales nisi. Vestibulum ac enim felis..",
-    imageUrl: "./dist/images/person4.jpg",
+    imageUrl: "/images/person4.jpg",
   },
   {
     id: 4,
@@ -39,7 +39,7 @@ const mentorList = [
     areaOfExpertise: "Cloud Computing, AWS, Azure",
     rating: 5,
     bio: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi molestie, metus quis blandit mattis, ligula augue molestie lectus, id volutpat sem diam nec arcu. Sed vel tincidunt lacus, a sodales nisi. Vestibulum ac enim felis.",
-    imageUrl: "./dist/images/person3.jpg",
+    imageUrl: "/images/person3.jpg",
   },
   {
     id: 5,
@@ -48,7 +48,7 @@ const mentorList = [
     areaOfExpertise: "Graphic Design, Illustrator, Photoshop",
     rating: 4,
     bio: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi molestie, metus quis blandit mattis, ligula augue molestie lectus, id volutpat sem diam nec arcu. Sed vel tincidunt lacus, a sodales nisi. Vestibulum ac enim felis.",
-    imageUrl: "./dist/images/person2.jpg",
+    imageUrl: "/images/person2.jpg",
   },
   {
     id: 6,
@@ -57,7 +57,7 @@ const mentorList = [
     areaOfExpertise: "Cybersecurity, Network Security, Ethical Hacking",
     rating: 3,
     bio: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi molestie, metus quis blandit mattis, ligula augue molestie lectus, id volutpat sem diam nec arcu. Sed vel tincidunt lacus, a sodales nisi. Vestibulum ac enim felis.",
-    imageUrl: "./dist/images/person1.jpg",
+    imageUrl: "/images/person1.jpg",
   },
   {
     id: 7,
@@ -66,7 +66,7 @@ const mentorList = [
     areaOfExpertise: "Mobile App Development, Flutter, React Native",
     rating: 3,
     bio: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi molestie, metus quis blandit mattis, ligula augue molestie lectus, id volutpat sem diam nec arcu. Sed vel tincidunt lacus, a sodales nisi. Vestibulum ac enim felis.",
-    imageUrl: "./dist/images/person2.jpg",
+    imageUrl: "/images/person2.jpg",
   },
   {
     id: 8,
@@ -75,7 +75,7 @@ const mentorList = [
     areaOfExpertise: "Big Data, Hadoop, Spark",
     rating: 5,
     bio: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi molestie, metus quis blandit mattis, ligula augue molestie lectus, id volutpat sem diam nec arcu. Sed vel tincidunt lacus, a sodales nisi. Vestibulum ac enim felis.",
-    imageUrl: "./dist/images/person1.jpg",
+    imageUrl: "/images/person1.jpg",
   },
   {
     id: 9,
@@ -84,7 +84,7 @@ const mentorList = [
     areaOfExpertise: "SEO, Digital Marketing, Content Writing",
     rating: 4,
     bio: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi molestie, metus quis blandit mattis, ligula augue molestie lectus, id volutpat sem diam nec arcu. Sed vel tincidunt lacus, a sodales nisi. Vestibulum ac enim felis.",
-    imageUrl: "./dist/images/person4.jpg",
+    imageUrl: "/images/person4.jpg",
   },
   {
     id: 10,
@@ -93,7 +93,7 @@ const mentorList = [
     areaOfExpertise: "Project Management, Agile, Scrum",
     rating: 5,
     bio: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi molestie, metus quis blandit mattis, ligula augue molestie lectus, id volutpat sem diam nec arcu. Sed vel tincidunt lacus, a sodales nisi. Vestibulum ac enim felis.",
-    imageUrl: "./dist/images/person3.jpg",
+    imageUrl: "/images/person3.jpg",
   },
 ];
 
